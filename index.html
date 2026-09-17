@@ -14,16 +14,27 @@
       font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }
 
+    html {
+      overflow-x: hidden;
+      width: 100%;
+    }
+
     body {
       background: #0b0e14;
       color: #e9edf2;
       line-height: 1.6;
       scroll-behavior: smooth;
+      overflow-x: hidden;
+      width: 100%;
     }
 
     a {
       text-decoration: none;
       color: inherit;
+    }
+
+    img {
+      max-width: 100%;
     }
 
     .container {
@@ -117,6 +128,25 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+    }
+
+    .nav-toggle {
+      display: none;
+      background: transparent;
+      border: 1px solid rgba(72, 150, 255, 0.35);
+      color: #cbd5e1;
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .nav-toggle:hover {
+      border-color: #4896ff;
+      color: white;
     }
 
     .nav-links {
@@ -606,6 +636,40 @@
     }
 
     /* ===== RESPONSIVE ===== */
+
+    /* Tablet & below: collapse nav into a hamburger menu */
+    @media (max-width: 860px) {
+      .nav-toggle {
+        display: flex;
+      }
+
+      .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        margin-top: 1rem;
+        border-top: 1px solid rgba(72, 150, 255, 0.12);
+      }
+
+      .nav-links.nav-open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 0.9rem 0.2rem;
+        border-bottom: 1px solid rgba(72, 150, 255, 0.08);
+        width: 100%;
+      }
+
+      .nav-links a.nav-btn {
+        margin-top: 0.7rem;
+        text-align: center;
+        border-bottom: none;
+      }
+    }
+
     @media (max-width: 900px) {
       .hero-grid {
         grid-template-columns: 1fr;
@@ -634,19 +698,45 @@
       .container {
         padding: 0 1.2rem;
       }
-      .nav-links {
-        gap: 1rem;
-        font-size: 0.85rem;
+      .hero {
+        padding: 2.2rem 0 2rem;
       }
       .hero-content h1 {
-        font-size: 2.4rem;
+        font-size: 2.1rem;
+      }
+      .hero-tagline {
+        font-size: 1rem;
+      }
+      .hero-desc {
+        font-size: 0.95rem;
+      }
+      .hero-bg-animation {
+        max-width: 260px;
+      }
+      .section-title {
+        font-size: 1.7rem;
       }
       .stats-grid {
         grid-template-columns: 1fr 1fr;
       }
+      .contact-cards {
+        flex-direction: column;
+        align-items: stretch;
+      }
       .contact-card {
         padding: 0.8rem 1.4rem;
         font-size: 0.9rem;
+        justify-content: center;
+      }
+      .hero-buttons a {
+        flex: 1 1 100%;
+        justify-content: center;
+      }
+      .timeline-item {
+        padding: 1.3rem 1.2rem;
+      }
+      .cert-card {
+        padding: 1.3rem;
       }
     }
 
@@ -663,7 +753,10 @@
   <nav>
     <div class="container nav-flex">
       <span class="logo"><i class="fas fa-network-wired" style="margin-right: 10px; -webkit-text-fill-color: #4896ff;"></i>Praveen Kumar</span>
-      <div class="nav-links">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
         <a href="#hero">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -955,6 +1048,27 @@
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') closeLightbox();
     });
+
+    // Mobile nav toggle
+    (function () {
+      var toggle = document.getElementById('navToggle');
+      var links = document.getElementById('navLinks');
+      if (!toggle || !links) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = links.classList.toggle('nav-open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        toggle.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+      });
+
+      links.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          links.classList.remove('nav-open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.innerHTML = '<i class="fas fa-bars"></i>';
+        });
+      });
+    })();
   </script>
 </body>
 </html>
