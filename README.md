@@ -1,96 +1,87 @@
-# Praveen Kumar · CCNA | Network & IT Support — Portfolio
+<div align="center">
 
-Personal portfolio website of **Praveen Kumar**, a CCNA certified Networking & IT Support professional with hands-on experience in routing, switching, VLANs, DHCP, DNS, NAT, IPv4/IPv6, desktop support and large-scale academic operations.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22e4ff,100:7c5cff&height=190&section=header&text=Praveen%20Kumar&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=CCNA%20Certified%20%C2%B7%20Networking%20%26%20IT%20Support&descSize=18&descAlignY=60" alt="Praveen Kumar banner" />
 
-🌐 **Live site:** https://praveenkumarmsk.github.io/My_Profile_Portfolio/
+<a href="https://github.com/PraveenKumarmsk">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=22E4FF&center=true&vCenter=true&width=640&lines=Praveen%23+show+version;CCNA+Certified+%C2%B7+Networking+%26+IT+Support;VLAN+%7C+OSPF+%7C+NAT%2FPAT+%7C+DHCP+%7C+DNS+%7C+STP;Open+to+Networking+%C2%B7+NOC+%C2%B7+Desktop+Support" alt="Typing SVG" />
+</a>
 
----
+<br/>
 
-## ✨ Features
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-22e4ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://praveenkumarmsk.github.io/My_Profile_Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praveen-kumar-msk/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25d366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/916299078085)
+[![Email](https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krpravin406@gmail.com)
 
-- NOC / terminal-style design with an animated network-topology background
-- Typing terminal in the hero section (`Praveen# show version`)
-- Dark / Light theme toggle (remembers your choice)
-- Sections: Home, About, Skills, Certifications, Experience, Projects (Networking Labs), GitHub, Contact, Resume
-- **Auto-updating GitHub section** — all public repos are loaded from the GitHub API, so new repos appear automatically (falls back to a built-in list if the API is unavailable)
-- Experience timeline and "Moments @ Physics Wallah" photo gallery with lightbox
-- Fully responsive (mobile, tablet, desktop)
-- Single-file site: pure HTML, CSS and JavaScript — no build step, no dependencies
+</div>
 
 ---
 
-## 📁 Project Structure
+## 👋 About Me
 
-```
-My_Profile_Portfolio/
-├── index.html                 # Complete website (HTML + CSS + JS)
-├── README.md
-├── .github/workflows/         # GitHub Pages deployment workflow
-└── assets/
-    ├── images/
-    │   ├── profile.jpg
-    │   └── pw-moment-1.jpg … pw-moment-9.jpeg
-    ├── certificates/
-    │   ├── ccna-certificate.jpg
-    │   └── adca-certificate.png
-    └── docs/
-        └── Praveen Kumar CCNA CV_New.pdf
-```
+I'm an operations and technology professional with a passion for **networking and IT support**.
+
+- 🎓 **CCNA certified** (training from Hubnet Patna) and **ADCA** (STS Computer Education)
+- 🌐 Hands-on with routing, switching, VLANs, IP addressing, subnetting, DHCP, DNS, NAT and IPv4/IPv6
+- 🖥️ Desktop Support: Windows installation, software and printer troubleshooting, user support
+- 🏢 3.2 years at **Physics Wallah**, managing **6,000+ students** and leading floor and class operations teams
+- 🎯 Looking for roles in **Networking, IT Infrastructure, NOC Operations, Desktop Support and Technical Support**
 
 ---
 
-## 🚀 Run Locally
+## 🛠️ Skills
 
-No installation needed.
+![Networking](https://img.shields.io/badge/Networking-OSI%20%7C%20TCP%2FIP%20%7C%20LAN%2FWAN-22e4ff?style=flat-square)
+![Routing](https://img.shields.io/badge/Routing-Static%20%7C%20RIP%20%7C%20OSPF-7c5cff?style=flat-square)
+![Switching](https://img.shields.io/badge/Switching-VLAN%20%7C%20STP%20%7C%20EtherChannel-22e4ff?style=flat-square)
+![Services](https://img.shields.io/badge/Services-DHCP%20%7C%20DNS%20%7C%20NAT%2FPAT%20%7C%20SSH-7c5cff?style=flat-square)
+![Security](https://img.shields.io/badge/Security-ACL%20%7C%20Port%20Security%20%7C%20DHCP%20Snooping-22e4ff?style=flat-square)
+![Desktop](https://img.shields.io/badge/Desktop%20Support-Windows%2010%2F11%20%7C%20BitLocker-7c5cff?style=flat-square)
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/PraveenKumarmsk/My_Profile_Portfolio.git
-   cd My_Profile_Portfolio
-   ```
-2. Open `index.html` in your browser, or serve it locally:
-   ```bash
-   python -m http.server 8000
-   ```
-   Then visit `http://localhost:8000`.
-
----
-
-## 🌍 Deploy on GitHub Pages
-
-1. Push the files to the `main` branch.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, select the `main` branch (root) or **GitHub Actions** (if using the workflow in `.github/workflows`).
-4. Your site will be live at `https://<username>.github.io/My_Profile_Portfolio/`.
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 🛠️ Customize
+## 🚀 Featured Projects
 
-| What to change | Where |
+| Project | Description |
 |---|---|
-| Profile photo | Replace `assets/images/profile.jpg` |
-| Certificates | Add/replace files in `assets/certificates/` (same file names) |
-| Resume | Replace the PDF in `assets/docs/` (keep the same file name) |
-| Gallery photos | `assets/images/pw-moment-1…9` |
-| Contact details & links | Contact section in `index.html` |
-| GitHub username for auto repos | `USER` variable in the GitHub script inside `index.html` |
+| [**network-planner-pro**](https://github.com/PraveenKumarmsk/network-planner-pro) | Web tool for network planning, built with HTML |
+| [**Time-Slot-Booking**](https://github.com/PraveenKumarmsk/Time-Slot-Booking) | Time slot booking web project |
+| [**EasyImageFlex**](https://github.com/PraveenKumarmsk/EasyImageFlex) | Image web project |
+| [**Sakhaed**](https://github.com/PraveenKumarmsk/Sakhaed) | Web project built with HTML |
+| [**Encryption-Brute**](https://github.com/PraveenKumarmsk/Encryption-Brute) | JavaScript project |
+| [**VLAN Configuration Lab**](https://github.com/PraveenKumarmsk/VLAN-Configuration-Project-Labs) | VLANs, access/trunk ports and inter-VLAN routing |
+| [**DHCP Configuration Lab**](https://github.com/PraveenKumarmsk/DHCP-Configuration-Project-Labs) | DHCP pools, gateway and DNS |
+| [**NAT & PAT Lab**](https://github.com/PraveenKumarmsk/NAT-PAT-Configuration-Project-Labs) | NAT/PAT for private-to-public communication |
 
 ---
 
-## 🧰 Tech Stack
+## 📊 GitHub Stats
 
-HTML5 · CSS3 · Vanilla JavaScript · GitHub Pages · GitHub REST API
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=PraveenKumarmsk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PraveenKumarmsk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top languages" />
+
+</div>
 
 ---
 
-## 📬 Contact
+## 📬 Let's Connect
 
-- 📧 Email: krpravin406@gmail.com
-- 💬 WhatsApp: [wa.me/916299078085](https://wa.me/916299078085)
+- 🌐 Portfolio: [praveenkumarmsk.github.io/My_Profile_Portfolio](https://praveenkumarmsk.github.io/My_Profile_Portfolio/)
 - 💼 LinkedIn: [praveen-kumar-msk](https://www.linkedin.com/in/praveen-kumar-msk/)
-- 🐙 GitHub: [PraveenKumarmsk](https://github.com/PraveenKumarmsk)
+- 📧 Email: krpravin406@gmail.com
+- 💬 WhatsApp: [6299078085](https://wa.me/916299078085)
 
----
+<div align="center">
 
-© 2026 Praveen Kumar. All Rights Reserved.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c5cff,100:22e4ff&height=100&section=footer" alt="footer" />
+
+</div>
