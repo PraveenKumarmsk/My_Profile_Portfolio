@@ -87,7 +87,7 @@ HTML5 · CSS3 · Vanilla JavaScript · GitHub Pages · GitHub REST API
 ## 📬 Contact
 
 - 📧 Email: krpravin406@gmail.com
-- 💬 WhatsApp: [wa.me/916299078085](https://wa.me/916299078085)
+- 💬 WhatsApp: [wa.me/phone_no](https://wa.me/916299078085)
 - 💼 LinkedIn: [praveen-kumar-msk](https://www.linkedin.com/in/praveen-kumar-msk/)
 - 🐙 GitHub: [PraveenKumarmsk](https://github.com/PraveenKumarmsk)
 
