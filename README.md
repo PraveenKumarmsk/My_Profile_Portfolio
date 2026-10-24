@@ -92,5 +92,10 @@ HTML5 · CSS3 · Vanilla JavaScript · GitHub Pages · GitHub REST API
 - 🐙 GitHub: [PraveenKumarmsk](https://github.com/PraveenKumarmsk)
 
 ---
+## 📄 License
 
-© 2026 Praveen Kumar. All Rights Reserved.
+Copyright © 2026 Praveen Kumar. All Rights Reserved.
+
+This project is proprietary. Unauthorized copying, modification, distribution, or commercial use of the source code is prohibited without prior written permission from the copyright owner.
+
+For more information, see the [LICENSE](LICENSE) file.
